@@ -1,0 +1,491 @@
+@import url("init.css");
+*{
+    box-sizing: border-box;
+}
+
+html{
+    text-size-adjust: 100%;
+}
+
+body{
+    background-color: white;
+    font-weight: 500;
+    line-height: 19px;
+    color: rgb(29, 31, 31);
+    font-family: "Hiragino Sans", -apple-system, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Segoe UI", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+header{
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background: rgb(255, 255, 255);
+    z-index: 1000;
+    box-shadow: rgb(0 0 0 / 5%) 0px 8px 8px -8px;
+}
+
+
+.footer_container{
+    position: relative;
+    width: 100%;
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav_bar{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+
+.nav_bar h1{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 80px;
+    cursor: pointer;
+}
+
+.nav_bar ul{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.nav_bar ul li{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+
+main{
+    margin-top: 80px;
+    display: block;
+}
+
+
+
+.brand_intro{
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-bottom: 118px;
+    position: relative;
+    background-color: #04C5BE;
+    width: 100%;
+    height: 710px;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 300;
+
+}
+
+
+.intro_container{
+    position: relative;
+    width: 100%;
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.brand_intro_text{
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+}
+
+#brand_text{
+    display: inline-block;
+    width: 345px;
+    height: 275px;
+    margin-left: -52px;
+    background-image: url(https://foodneko.com/_next/static/images/brand_text@2x-5c2f09da3caa5995764963f782a2aad8.png);
+    background-size: 345px 275px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    box-sizing: border-box;
+    text-size-adjust: 100%;
+}
+
+
+.appBtn {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.appBtn img{
+    width: 185px;
+    height: 56px;
+}
+
+
+
+.btn_container{
+    display: block;
+    text-align: center;
+}
+
+#mobile_neko{
+
+    position: absolute;
+    right: -10px;
+    top: 120px;
+    display: inline-block;
+    width: 680px;
+    height: 760px;
+    background-image: url(https://foodneko.com/_next/static/images/brand_mobile@2x-c4c863c5f0db94421a38b021fbd4fbfd.png);
+    background-size: 680px 760px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#mission{
+    background-color: rgb(249, 250, 250);
+    padding-bottom: 118px;
+    padding-top: 244px;
+    text-align: center;
+    text-size-adjust: 100%;
+    font-weight: 300;
+}
+
+.mission_container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 970px;
+    position: relative;
+    text-align: center;
+    width: 970px;
+}
+
+.mission_container h2{
+    display: block;
+    font-weight: 700;
+    font-size: 52px;
+    margin-block-end: 60px;
+    margin-block-start: 0;
+    margin-bottom: 60px;
+    text-align: center;
+    text-size-adjust: 100%;
+    line-height: 67px;
+}
+
+.card{
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    line-height: 19px;
+    min-height: 380px;
+    padding-bottom: 20px;
+    padding-left: 86px;
+    padding-top: 20px;
+    text-align: center;
+    text-size-adjust: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.card:nth-of-type(2){
+    flex-direction: row-reverse;
+}
+
+.card p{
+    align-items: center;
+    display: flex;
+    flex-basis: 415px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+}
+
+.card div{
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 340px 340px;
+    display: block;
+    flex-basis: 340px;
+    line-height: 19px;
+    text-align: center;
+    width: 340px;
+}
+
+
+.card_img1{
+    background-image: url(https://foodneko.com/_next/static/images/card-01@2x-2326748bf28072a581579e86ee0fb032.png);
+}
+.card_img2{
+    background-image: url(https://foodneko.com/_next/static/images/card-02@2x-974f1fbb2e9883a19d2a9ce0d6e0fdbb.png);
+}
+.card_img3{
+    background-image: url(https://foodneko.com/_next/static/images/card-03@2x-040d94954947ce8891b43c236d7a06fa.png);
+}
+
+
+#owner{
+    padding-top: 124px;
+    padding-bottom: 118px;
+    text-align: center;
+    display: block;
+}
+
+.style_container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 970px;
+    position: relative;
+    text-align: center;
+    width: 970px;
+}
+
+.style_container h2{
+    display: block;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 67px;
+    margin-block-end: 34px;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    text-align: center;
+}
+
+.style_container p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+
+.btnWrapper{
+    background-image: linear-gradient(to left, rgb(36, 197, 187), rgba(31, 186, 195, 0.8));
+    font-size: 22px;
+    padding: 20px 67px;
+    font-weight: 700;
+    line-height: 1.3;
+    border-radius: 36px;
+    color: white;
+    display:  inline-block;
+    margin-top: 34px;
+    margin-bottom: 58px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.style_container img{
+    width: 806px;
+}
+
+#rider{
+    background-color: rgb(245, 245, 247);
+    padding-bottom: 136px;
+    padding-top: 124px;
+    
+}
+
+#rider p{
+    font-size: 24px;
+    line-height: 1.5em;
+    margin: 0px;
+}
+
+.commingsoon{
+    background-color: rgb(249, 249, 250);
+    padding-bottom: 118px;
+    padding-top: 112px;
+    text-align: center;
+}
+
+.speeachbubble{
+    position: absolute;
+    display: inline-block;
+    top: -240px;
+    left: calc(50% - 250px);
+    width: 500px;
+    height: 250px;
+    padding: 20px 38px 45px;
+    background-image: url(https://foodneko.com/_next/static/images/bubble_web-387da371d737faf37e873d7f5671232d.png);
+    background-size: 500px 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+.speeachbubble div:first-child{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 30px 50px;
+    word-break: keep-all;
+    color: rgb(29, 31, 31);
+    text-align: center;
+}
+
+.speeachbubble div > div{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    word-break: keep-all;
+}
+
+.speeachbubble h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-block-end: 34px;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+    word-break: keep-all;
+}
+
+.speeachbubble p{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    word-break: keep-all;
+}
+
+.speeachbubble span{
+    color: rgb(0, 183, 177);
+}
+
+.commingsoon img{
+    width: 224px;
+}
+
+.storeBtnContainer a:first-child{
+    margin: 0px 15px 0px 0px;
+    text-align: center;
+
+}
+
+.storeBtnContainer img{
+    width: 212px;
+}
+
+#contact{
+    background-color: rgb(245, 245, 247);
+    color: rgb(147, 147, 147);
+    font-weight: 300;
+    line-height: 19px;
+    padding-bottom: 120px;
+    padding-top: 124px;
+    text-align: left;
+}
+
+#contact div{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 970px;
+    position: relative;
+    text-align: left;
+    width: 970px;
+}
+
+#contact h3{
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 19px;
+    margin-block-end: 40px;
+    margin-bottom: 40px;
+    color: rgb(29, 31, 31);
+}
+
+#contact ul{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.Copyright{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    padding-top: 12px;
+    text-align: left;
+}
+.Copyright span{
+    padding: 8px 5px;
+    font-size: 16px;
+}
+
+.Copyright ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#contact ul li{
+    line-height: 1em;
+    margin-bottom: 12px;
+}
+
+.Copyright a{
+    color: inherit;
+    text-decoration-color: rgb(147, 147, 147);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    word-break: break-all;
+    cursor: pointer;
+}
+
+.CompanyLogoList{
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: -40px;
+    mix-blend-mode: darken;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    line-height: 19px;
+    list-style-position: outside;
+}
+
+
+.style__ComapnyLogo{
+    line-height: 1em;
+    margin-bottom: 12px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.style__ComapnyLogo img{
+    width:60px;
+    border-style: none;
+    box-sizing: border-box;
+}
